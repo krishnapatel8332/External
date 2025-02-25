@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Our Travel Website</h2>
+      <p>Discover amazing places around the world.</p>
+    </section>
+    <section id="destinations">
+      <h2>Top Destinations</h2>
+      <div class="gallery">
+        <img src="https://wallpaperaccess.com/full/19067.jpg" alt="Destination 1">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.26Aw3Tw7APgmtVEPN1XucAHaFS&pid=Api&P=0&h=220" alt="Destination 2">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.cl__XpAEinTo54YGGCMjXQHaE7&pid=Api&P=0&h=220" alt="Destination 3">
+      </div>
+      <p>Explore our top travel destinations.</p>
+    </section>
+    <section id="tours">
+      <h2>Our Tours</h2>
+      <p>Details about the tours we offer.</p>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <div class="about">
+        <p>We are a travel company dedicated to providing the best travel experiences.</p>
+      </div>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <p>We offer a variety of services to make your travel experience unforgettable.</p>
+      </div>
+    </section>
+    <section id="booking">
+      <h2>Book Your Trip</h2>
+      <div class="booking">
+        <form>
+          <label for="destination">Destination:</label>
+          <select id="destination" name="destination">
+            <option value="destination1">Destination 1</option>
+            <option value="destination2">Destination 2</option>
+            <option value="destination3">Destination 3</option>
+          </select>
+          <label for="checkin">Check-in Date:</label>
+          <input type="date" id="checkin" name="checkin">
+          <label for="checkout">Check-out Date:</label>
+          <input type="date" id="checkout" name="checkout">
+          <label for="guests">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" min="1" max="10">
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+    </section>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>"This was the best trip of my life! Highly recommend this travel company."</p>
+          <p class="author">- John Doe</p>
+        </div>
+        <div class="testimonial">
+          <p>"Amazing destinations and great service. Will book again!"</p>
+          <p class="author">- Jane Smith</p>
+        </div>
+      </div>
+    </section>
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq">
+        <p>Find answers to the most common questions about our services.</p>
+      </div>
+    </section>
+    <section id="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <div class="newsletter">
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact">
+        <p>Get in touch with us for more information.</p>
+        <p>Email: krishna@gmail.com</p>
+        <p>Phone: +7348018964 </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Travel. Explore. Discover.</p>
+    <p>&copy; 2025 Travel Website. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
